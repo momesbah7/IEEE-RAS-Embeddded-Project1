@@ -22,7 +22,7 @@ typedef struct {
     char owner_name[50];    // Name of the vehicle owner
     char plate_number[20];  // License plate number
     char vehicle_type[20];  // Type/Category of the vehicle
-    long entry_time;        // Timestamp of entry time in seconds
+    time_t entry_time;        // Timestamp of entry time in seconds
     int slot_number;        // Assigned parking slot number (-1 if unassigned)
 } Vehicle;
 
