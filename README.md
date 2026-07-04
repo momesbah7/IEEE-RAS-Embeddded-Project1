@@ -34,5 +34,5 @@ gcc main.c functions.c -o parking_system
 
 ## Contributors
 
-**Mohamed Mesbah**
-**Mostafa Elramady**
+* **Mohamed Mesbah**
+* **Mostafa Elramady**
